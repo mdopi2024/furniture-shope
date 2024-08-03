@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+/* defult style start */
+body{
+    margin: 0;
+    padding: 0;
+     font-family: "Nunito", sans-serif;
+     background-color: #1A3636;
+  
+}
+.container{
+    border: 1px solid black;
+    margin-top: 100px;
+}
+.section-heading{
+  color: white;
+  font-size: 2rem;
+}
+.all-p{
+    font-size: 14px;
+    color: white;
+}
+
+/* defult style end */
+
+/* header section start */
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar h2{
+    color: burlywood;
+}
+ul{
+    display: flex;
+
+}
+li{
+    list-style: none;
+    padding-left:  2rem;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.icon{
+    padding-left: 2rem;
+    
+    
+}
+.icon-2{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+i{
+    padding-right:2rem;
+    color: white;
+    font-size:20px;
+    
+}
+.nav-option{
+    display: flex;
+    align-items: center;
+   
+    background-color:#677D6A ;
+    border-radius: 2rem;
+}
+/* banner part */
+.banner-text h1{
+   font-size: 3rem;
+   color: white;
+}
+.primary-btn{
+    width: 100px;
+    padding: 0.5rem 1rem;
+   background-color:#677D6A ;
+   border: none;
+   border-radius: 2rem;
+   color: white;
+}
+.banner-img img{
+    width: 600px;
+    height: 500px;
+}
+.banner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* header section end */
+
+/* main section start */
+
+/* crafrec section start */
+.crafted-img-1{
+    width: 300px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 15px #1A3636;
+  
+}
+.crafted-img-2{
+    width: 300px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 15px #1A3636;
+}
+.crafted-img-1 img{
+  width: 300px;
+  height: 250px;
+  
+}
+.crafted-img-2 img{
+  width: 300px;
+  height: 250px;
+}
+.sub-crafted{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding:70px 0;
+    border-radius: 1rem;
+    background-color:#d6bd9863;
+}
+.craft{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 15px #1A3636;
+}
+
+/* main section end */
+
+
+
+/* media quare start */
+@media screen and (max-width:576px) {
+   
+    .nav-option{
+        display: none;
+    }
+    .icon-2{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    .banner-text{
+        width:100%;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .nav-bar{
+        justify-content: space-between;
+    }
+    .nav-bar h2{
+        padding-left: 50px;
+    }
+
+/* crafted section start  */
+.crafted-section{
+    width: 100%;
+    height: auto;
+}
+.sub-crafted{
+    width:100%;
+    height: auto;
+}
+.craft,.crafted-img-1,.crafted-img-2{
+    width: 90%;
+    margin-bottom: 70px;
+
+}
+.crafted-img-2{
+    margin-bottom:0 ;
+}
+.sub-crafted{
+    flex-direction: column;
+   align-items: center;
+    padding:50px 0;
+}
+/* crafted section end */
+
+}
+
+
+/* media quare end */
